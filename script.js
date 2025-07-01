@@ -1,3 +1,3 @@
 function gotopage(locate) {
-    window.location.pathname = locate
+    window.location.href = locate;
 }
