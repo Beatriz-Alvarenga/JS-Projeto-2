@@ -47,8 +47,8 @@ function paginaMedia(){
     }
 
     let media = soma / qtdNumeros_i;
-
-    console.log("A média é : "+media);
+    window.alert('A média vale: '+media);
+    //console.log("A média é : "+media);
 
 }
 
