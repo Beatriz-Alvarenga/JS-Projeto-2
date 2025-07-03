@@ -1,3 +1,3 @@
 function gotopage(locate) {
-    window.location.href = locate;
+    window.open(locate);
 }
