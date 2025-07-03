@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Projeto 2</title>
+    <title>JS Projeto 2</title>
 </head>
 
 <body>
+
+    <h1>Escolha 1 das Opções:</h1>
     
     <section class="Botoes">
 
-        <button onclick="gotopage('valores/index.html')">Valores</button>
+        <button onclick="paginaValor()">Valores</button>
 
-        <button onclick="gotopage('lista/index.html')">Lista</button>
+        <button onclick="paginaMedia()">Média</button>
 
-        <button onclick="gotopage('game/index.html')">Game</button>
+        <button onclick="paginaGame()">Game</button>
 
     </section>
+
+    <script src="script.js" defer></script>
     
-    <script src="script.js"></script>
+    <div id="conteudo"></div>
+
 </body>
 </html>
